@@ -10,6 +10,13 @@ body{
 }
 
 canvas{
+    width: 100%;
     background: #000;
     object-fit: contain;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
+img{
+    display: none;
 }
